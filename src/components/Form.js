@@ -76,6 +76,7 @@ const Form = () => {
                           className="form-control"
                         />
                         <label>Message</label>
+
                         <textarea
                           name="message"
                           placeholder="MESSAGE...."
