@@ -1,0 +1,119 @@
+.about {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+/* special offer */
+.about-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: grey;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.special-offer {
+  background-color: #ffc107;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* our services */
+/* Add these styles for the new services section */
+
+.services-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-section h2 {
+  color: #333;
+  text-align: center;
+}
+
+.services-section p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.service {
+  margin-top: 20px;
+}
+
+.service h3 {
+  color: #333;
+}
+
+.service p {
+  color: #777;
+}
+
+.about .left {
+  text-align: center;
+  text-size-adjust: 6px;
+  margin: auto;
+  padding: 1rem;
+  max-width: 400px;
+}
+
+.about .left p {
+  margin: 1.2rem 0;
+}
+
+.about .right {
+  max-width: 700px;
+}
+
+.right .img-container {
+  display: flex;
+  /* grid-template-columns: repeat(12, 1fr); */
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.right .img {
+  max-width: 60%;
+  border: 1px solid #333;
+}
+
+.right .top {
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  padding-top: 20%;
+  z-index: 6;
+}
+
+.right .bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+  z-index: 5;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: skyblue;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* text-align: center; */
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

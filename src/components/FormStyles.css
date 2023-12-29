@@ -1,0 +1,94 @@
+.bodyF {
+  background-color: #1a1a1a; /* Dark background color */
+  color: #ffffff; /* Light text color */
+  font-family: "Arial", sans-serif; /* Adjust font family as needed */
+}
+
+.backgroundF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.f-container {
+  width: 80%;
+  max-width: 600px;
+}
+
+.screen {
+  background-color: #333; /* Darker background for the form */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 20px;
+}
+
+.screen-body-item.left {
+  background: linear-gradient(
+    to right,
+    #333,
+    #1a1a1a
+  ); /* Gradient for the left side */
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #555; /* Border color for the input fields */
+  border-radius: 5px;
+  background-color: #444; /* Input background color */
+  color: #fff; /* Input text color */
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-buttons {
+  background-color: #4caf50; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button {
+  background-color: red;
+}
+.form-buttons:hover {
+  background-color: #45a049;
+}
